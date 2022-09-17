@@ -1,0 +1,52 @@
+html {
+  background-color: #f3f2f7;
+  color: #2f1d4b;
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 30rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  color: rgb(245, 245, 245);
+  background-color: #286fbd;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+}
+
+input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input#result {
+  background-color: rgb(245, 245, 245);
+}
+
+.total-average {
+  display: flex;
+}
+
+button {
+  padding: 4px 15px;
+  border: #286fbd;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.submit {
+  background-color: #ee0cab;
+  color: white;
+}
+
+button.submit:hover {
+  background-color: #ca048f;
+}
