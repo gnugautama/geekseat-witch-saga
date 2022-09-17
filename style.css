@@ -50,3 +50,16 @@ button.submit {
 button.submit:hover {
   background-color: #ca048f;
 }
+
+.attribution {
+  margin-top: 5rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #ee0cab;
+}
+
+.attribution a:hover {
+  color: hsl(0, 0%, 100%);
+}
